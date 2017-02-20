@@ -47,5 +47,9 @@
   "Asignatura": {
     "dataSource": "db",
     "public": true
+  },
+  "PagoRealizado": {
+    "dataSource": "db",
+    "public": true
   }
 }

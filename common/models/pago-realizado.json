@@ -1,0 +1,27 @@
+{
+  "name": "PagoRealizado",
+  "plural": "PagosRealizados",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id_PR": {
+      "type": "number",
+      "required": true
+    },
+    "deuda_id": {
+      "type": "number",
+      "required": true
+    },
+    "foto": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
