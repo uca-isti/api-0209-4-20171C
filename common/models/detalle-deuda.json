@@ -1,0 +1,27 @@
+{
+  "name": "detalleDeuda",
+  "plural": "detallesdeudas",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id_detalleDeuda": {
+      "type": "number",
+      "required": true
+    },
+    "deuda_id": {
+      "type": "number",
+      "required": true
+    },
+    "asignatura_id": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
