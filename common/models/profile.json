@@ -22,6 +22,10 @@
     "user_id": {
       "type": "number",
       "required": true
+    },
+    "carrera_id": {
+      "type": "number",
+      "required": true
     }
   },
   "validations": [],
@@ -30,6 +34,11 @@
       "type": "belongsTo",
       "model": "User",
       "foreignKey": "user_id"
+    },
+    "carrera": {
+      "type": "belongsTo",
+      "model": "Carrera",
+      "foreignKey": "carrera_id"
     }
   },
   "acls": [],
