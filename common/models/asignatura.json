@@ -25,7 +25,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "carrera": {
+      "type": "belongsTo",
+      "model": "Carrera",
+      "foreignKey": "carrera_id"
+    }
+  },
   "acls": [],
   "methods": {}
 }
