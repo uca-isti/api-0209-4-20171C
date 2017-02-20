@@ -35,5 +35,9 @@
   "Carrera": {
     "dataSource": "db",
     "public": true
+  },
+  "Profile": {
+    "dataSource": "db",
+    "public": true
   }
 }
