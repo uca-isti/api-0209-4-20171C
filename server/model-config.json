@@ -40,6 +40,10 @@
     "dataSource": "db",
     "public": true
   },
+  "Profile": {
+    "dataSource": "db",
+    "public": true
+  },
   "Asignatura": {
     "dataSource": "db",
     "public": true
