@@ -39,5 +39,9 @@
   "Deuda": {
     "dataSource": "db",
     "public": true
+  },
+  "Asignatura": {
+    "dataSource": "db",
+    "public": true
   }
 }

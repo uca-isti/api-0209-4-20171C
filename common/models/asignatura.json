@@ -1,0 +1,31 @@
+{
+  "name": "Asignatura",
+  "plural": "asignaturas",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id_asignatura": {
+      "type": "number",
+      "required": true
+    },
+    "asignatura": {
+      "type": "string",
+      "required": true
+    },
+    "precio": {
+      "type": "number",
+      "required": true
+    },
+    "carrera_id": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
