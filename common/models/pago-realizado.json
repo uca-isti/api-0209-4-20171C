@@ -21,7 +21,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "deuda": {
+      "type": "belongsTo",
+      "model": "Deuda",
+      "foreignKey": "deuda_id"
+    }
+  },
   "acls": [],
   "methods": {}
 }

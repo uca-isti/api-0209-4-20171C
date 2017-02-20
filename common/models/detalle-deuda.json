@@ -21,7 +21,18 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "asignatura": {
+      "type": "belongsTo",
+      "model": "Asignatura",
+      "foreignKey": "asignatura_id"
+    },
+    "deuda": {
+      "type": "belongsTo",
+      "model": "Deuda",
+      "foreignKey": "deuda_id"
+    }
+  },
   "acls": [],
   "methods": {}
 }
