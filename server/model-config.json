@@ -35,5 +35,9 @@
   "Carrera": {
     "dataSource": "db",
     "public": true
+  },
+  "Deuda": {
+    "dataSource": "db",
+    "public": true
   }
 }
